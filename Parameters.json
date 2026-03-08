@@ -1,0 +1,129 @@
+{
+    "Parameters": [
+        {
+            "tag": "saludo",
+            "patterns": [
+                "hola",
+                "que tal",
+                "como estas",
+                "saludos",
+                "buenos dias",
+                "buenas tardes",
+                "buenas noches",
+                "hey"
+            ],
+            "response": [
+                "¡Hola! Soy Bit, tu asistente de RRHH del ITSE. ¿En qué puedo ayudarte hoy?",
+                "¡Buenas! Soy Bit. ¿En qué trámite de RRHH te puedo asistir?",
+                "Hola, un gusto saludarte. Soy Bit, ¿tienes alguna duda sobre el reglamento o tus beneficios?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "adios",
+                "hasta luego",
+                "nos vemos",
+                "bye",
+                "eso es todo",
+                "terminamos",
+                "gracias por todo",
+                "chau",
+                "me voy",
+                "muchas gracias adios"
+            ],
+            "response": [
+                "¡Fue un placer ayudarte! Habla con Bit cuando lo necesites.",
+                "Hasta luego, Bit queda a tu disposición.",
+                "¡Adiós! No dudes en consultarme si necesitas algo más.",
+                "¡Que tengas un excelente día! Aquí estaré si surge otra duda."
+            ]
+        },
+        {
+            "tag": "nombres",
+            "patterns": [
+                "como es tu nombre",
+                "cual es tu nombre",
+                "como te llamas",
+                "quien eres"
+            ],
+            "response": [
+                "Mi nombre es Bit, tu asistente virtual de Recursos Humanos.",
+                "Puedes llamarme Bit. Estoy aquí para facilitarte información de RRHH.",
+                "Soy Bit, el chatbot oficial para consultas del personal en el ITSE."
+            ]
+        },
+        {
+            "tag": "normativas",
+            "patterns": [
+                "reglamento interno",
+                "normas",
+                "derechos y deberes",
+                "codigo de conducta",
+                "normativa laboral"
+            ],
+            "response": [
+                "El Reglamento Interno establece las normas que regulan la relación laboral en el ITSE, incluyendo tus derechos y deberes.",
+                "Contamos con un régimen disciplinario y normas de conducta para asegurar la excelencia académica; puedes ver los detalles en el Reglamento Interno.",
+                "La normativa laboral del ITSE busca regular la relación con todos sus servidores públicos de forma justa y transparente."
+            ]
+        },
+        {
+            "tag": "horas_Extras",
+            "patterns": [
+                "pagan horas extra",
+                "trabajo extraordinario",
+                "sobretiempo",
+                "horas adicionales",
+                "recargos"
+            ],
+            "response": [
+                "El trabajo extraordinario requiere autorización previa. Los recargos son: 25% (diurna), 50% (nocturna/mixta) y 75% (prolongación nocturna).",
+                "Si trabajas tiempo adicional autorizado, se te remunerará con recargos legales que van del 25% al 75% según la jornada.",
+                "Recuerda que para cobrar sobretiempo, tu jefe inmediato debe dar el aval previo según el reglamento."
+            ]
+        },
+        {
+            "tag": "permisos",
+            "patterns": [
+                "pedir permiso",
+                "licencia por duelo",
+                "permiso por matrimonio",
+                "cita medica",
+                "faltar"
+            ],
+            "response": [
+                "El ITSE otorga 5 días por matrimonio, hasta 5 por duelo y tiempo para citas médicas justas.",
+                "Para cualquier permiso, debes llenar el formulario oficial y contar con el aval de tu jefe inmediato.",
+                "Existen licencias justificadas como duelo o matrimonio; asegúrate de presentar las evidencias necesarias en RRHH."
+            ]
+        },
+        {
+            "tag": "vacaciones",
+            "patterns": [
+                "cuantos dias de vacaciones",
+                "mis vacaciones",
+                "derecho a descanso",
+                "acumular vacaciones"
+            ],
+            "response": [
+                "Tienes derecho a 30 días de vacaciones remuneradas por cada año de servicio continuo.",
+                "El reglamento permite acumular hasta dos periodos de vacaciones, siempre con la autorización de la Dirección General.",
+                "Todo servidor público del ITSE disfruta de 30 días anuales de descanso tras un año de trabajo continuo."
+            ]
+        },
+        {
+            "tag": "preguntas_Frecuentes",
+            "patterns": [
+                "como puedes mejorar el flujo de trabajo",
+                "ayuda administrativa",
+                "procesos"
+            ],
+            "response": [
+                "Bit te ayuda agilizando la consulta de normativas y requisitos para trámites de RRHH de forma inmediata.",
+                "Optimizo el tiempo de respuesta al darte información oficial del Reglamento Interno sin que tengas que buscar en el documento físico.",
+                "Mi objetivo es que resuelvas tus dudas laborales en segundos, mejorando la comunicación entre el personal y RRHH."
+            ]
+        }
+    ]
+}
